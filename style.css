@@ -9,22 +9,28 @@
     text-align: center;
 }
 
-.flex-item-left {
+.flex-item-head {
     background-color: #f1f1f1;
-    padding: 10px;
-    flex: 50%;
+    padding: 100px;
+    flex: 100%;
 }
 
-.flex-item-right {
+.flex-item-body {
     background-color: dodgerblue;
-    padding: 10px;
-    flex: 50%;
+    padding: 500px;
+    flex: 100%;
+}
+
+.flex-item-floor {
+    background-color: rgb(255, 30, 30);
+    padding: 100px;
+    flex: 100%;
 }
 
 @media (max-width: 800px) {
-
-    .flex-item-right,
-    .flex-item-left {
+    .flex-item-head,
+    .flex-item-floor,
+    .flex-item-body {
         flex: 100%;
     }
 }
